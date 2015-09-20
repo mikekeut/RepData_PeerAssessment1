@@ -16,15 +16,6 @@ The code below reads in the dataset and saves it as an R object.
 data <- read.csv("activity.csv")
 ```
 
-```
-## Warning in file(file, "rt"): cannot open file 'activity.csv': No such file
-## or directory
-```
-
-```
-## Error in file(file, "rt"): cannot open the connection
-```
-
 **What is mean total number of steps taken per day?**
 
 First, we use the dplyr package to group the data by day, calculate the total  number of steps taken per day, and print the results.
